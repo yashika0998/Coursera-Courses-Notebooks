@@ -1,0 +1,101 @@
+
+.navbar{
+    background-image: url("../images/frisbee2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding:10px;
+}
+
+#heading{
+    margin:10px 20px 50px;
+    padding: 0px 300px;
+    color:white;
+    font-style: oblique;
+}
+nav button{
+    font-style: oblique;
+    background-color: white;
+    opacity:0.7;
+    border:1px solid whitesmoke;
+    padding :13px 13px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+    
+}
+button:hover{
+    opacity:1;
+    color:blue;
+}
+.left{
+    background-color:rgb(9, 65, 4);
+    float:left;
+    width: 190px;
+    height:570px;
+	float:left;
+    padding: 5% 1%;
+}
+
+.information{
+    margin-top: 20px;
+    width: 75%;
+    display: inline-block;
+    padding-left: 10px;
+    font-size: large;
+    font-weight: 900px;
+    
+}
+img{
+    border: 2px solid black;
+    margin-left:15px;
+    width:160px;
+    length:120px;
+    
+}
+#infoheading{
+    margin-top: 6px;
+    font-size: 190%;
+    font-weight:900px;  
+}
+table {
+       padding: 10px 90px 10px 9px;
+       font-family: "Times New Roman", Times, serif;
+}
+.tab{
+    margin-left: 90px;
+}
+tr:hover{
+    opacity: 0.8;
+}
+th{ 
+    padding: 10px 40px 10px 9px;
+    border-radius: 5px 5px 0 0 ;
+	text-align: center;
+	background: rgb(33, 100, 27);
+    border: 2px solid rgb(137, 233, 128);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    padding: 10px 90px 10px 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(186, 223, 183);
+    margin-left:5%;
+    opacity: 0.7;
+}
+th:first-child
+{
+	text-align: left;
+	padding-left: 1%;
+}
+
+td:nth-last-child(2)
+{
+    text-align: center;
+ 
+}
+td:nth-last-child(1)
+{
+    text-align: center;
+}
+
