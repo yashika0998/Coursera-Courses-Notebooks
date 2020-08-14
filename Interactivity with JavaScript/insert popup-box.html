@@ -5,10 +5,14 @@
     <title> insertion popup </title>
 </head>
 <body>
+<!--We always write javascript code in script tag-->
 <!-- Heading will apper once work of popup is done ok-->
-    <h1> Registered page </h1>
+<!--document.write will show entered thing on main page i.e. you write in popup box-->
+    <h1> Registered page is on name </h1>
     <script>
-        prompt("enter your name")
+        var name = prompt("enter your name")
+        document.write("<h2>"+ name +"<h2>");
+        document.write(document.baseURI+"<br>");
     </script>
 
 </body>
